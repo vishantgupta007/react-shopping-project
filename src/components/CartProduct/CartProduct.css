@@ -1,0 +1,65 @@
+/* .basket_cart_container {
+  padding: 40px 80px;
+  height: 200px;
+} */
+
+.basket_container {
+  padding: 40px 80px;
+  display: grid;
+  grid-template-columns: 30% 30% 20% 10% 10%;
+}
+
+.basket_image {
+  height: 100px;
+  width: 80px;
+}
+
+.basket_image img {
+  height: 100%;
+  width: 100%;
+}
+
+.bakset_product_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+}
+
+.bakset_product_desc h3 {
+  color: brown;
+}
+
+.bakset_product_desc p {
+  color: rgb(62, 59, 59);
+}
+.basket_counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.basket_counter span {
+  font-size: 22px;
+}
+
+.basket_icon {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.basket_price {
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+}
+
+.remove_item {
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  color: red;
+  cursor: pointer;
+}

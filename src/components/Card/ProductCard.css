@@ -1,0 +1,26 @@
+.card-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-title {
+  text-align: center;
+  margin: 1rem 0;
+  color: goldenrod;
+  font-size: 42px;
+}
+
+.card-title span{
+  color: rgb(218, 100, 32);
+}
+
+.card-container img {
+  margin: 2rem 0;
+  transform: scale(1);
+  transition: 300ms all linear;
+}
+
+.card-container img:hover {
+  transform: scale(1.07);
+}
