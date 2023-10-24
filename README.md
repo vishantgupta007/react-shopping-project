@@ -1,3 +1,10 @@
+## import mades for react => 
+## React-icons
+## React-router-dom
+## for statemanagement => contextAPI
+## CustomProduct is of no use
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
