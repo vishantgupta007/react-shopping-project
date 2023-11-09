@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { products } from "../../data";
-import "./Productdetail.css";
+import "./ProductDetail.css";
 import { useContext, useState } from "react";
 import { StoreContext } from "../../components/Context/StoreContext";
 import { fastDelivery, freeShip, returnDelivery } from "../../data";
